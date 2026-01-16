@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        *{
+            font-family: monospace;
+        }
+        body{
+            font-size: 22px;
+            border: 3px solid black;
+        }
+        button, input, textarea, select{
+            font: inherit;
+        }
+        p{
+            color: purple;
+        }
+        p{
+            color: red;
+        }
+        .gray{
+            color: grey;
+        }
+        #second{
+            font-style: italic;
+        }
+        h1, h3{
+            color: blue;
+        }
+        .highlight{
+            text-transform: uppercase;
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+  <header>
+     <h1>
+        CSS Selector
+    </h1>
+  </header> 
+
+   <article>
+     <h3>Article1</h3>
+    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus praesentium
+       facilis temporibus <span class="highlight">amet expedita natus </span>iste rem doloremque et porro?</p>
+   </article>
+
+    <article>
+        <h3>Article2</h3>
+    <p class="gray" id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus praesentium
+       facilis temporibus amet expedita natus iste rem doloremque et porro?</p>
+    </article>
+
+       <article>
+        <h3>Article3</h3>
+    <p class="gray" id="third">Lorem ipsum <span class="highlight">dolor </span> sit amet consectetur adipisicing elit. Minus praesentium
+       facilis temporibus amet expedita natus iste rem doloremque et porro?</p>
+       </article>
+
+</body>
+</html>

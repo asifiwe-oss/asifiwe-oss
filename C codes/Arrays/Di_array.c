@@ -52,24 +52,24 @@ int main(){
 
 
 
-// int array[4][4];
-// int sum = 0;
-// int product = 1;
-// int i;
-// int j;
-// for(i = 0; i < 4; i++){
-//     for(j = 0; j < 4; j++){
-//         printf("Enter the element of array [%d][%d]: ",i,j);
-//         scanf("%d",&array[i][j]);  
-//     }
-// }
-// for(i = 0; i < 4; i++){
-//     for(j = 0; j < 4; j++){
-//   sum += array[i][j];
-//   product *= array[i][j];
-//     }
-// }
-// printf("Sum = %d\n",sum);
-// printf("Product = %d",product);
-//    return 0;
-// }
+int array[4][4];
+int sum = 0;
+int product = 1;
+int i;
+int j;
+for(i = 0; i < 4; i++){
+    for(j = 0; j < 4; j++){
+        printf("Enter the element of array [%d][%d]: ",i,j);
+        scanf("%d",&array[i][j]);  
+    }
+}
+for(i = 0; i < 4; i++){
+    for(j = 0; j < 4; j++){
+  sum += array[i][j];
+  product *= array[i][j];
+    }
+}
+printf("Sum = %d\n",sum);
+printf("Product = %d",product);
+   return 0;
+}
